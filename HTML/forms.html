@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <center>
+        <hr>
+        <form action="/go">
+            <label for="Name">Name :</label>
+            <input id="Name" type="text" placeholder="Enter Your Name...">
+            <br>
+            <label for="dob">DOB :</label>
+            <input type="date" id="dob" placeholder="Enter Your DOB...">
+            <br>
+            <label for="Username">Username :</label>
+            <input id="Username" type="text" placeholder="Enter Your Username">
+            <br>
+            <label for="pswd">Password :</label>
+            <input id="pswd" type="password" placeholder="Enter Your Password..">
+            <br>
+            <label for="profession">Occupation :</label>
+            <select name="profession" id="profession">
+                <option value="stud">Student</option>
+                <option value="Dev">Developer</option>
+                <option value="Eng">Engineer</option>
+            </select>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <hr>
+        <hr>
+        <form action="https://www.google.com/search">
+            <input type="text" name="q" placeholder="Search on Google :)">
+            <input type="submit">
+        </form>
+        <hr>
+        <form action="https://www.youtube.com/results">
+            <input type="text" name="search_query" placeholder="Search On Youtube :)">
+            <input type="submit">
+        </form>
+        <hr>
+        <form action="/server">
+            <label for="adult">I am 18+ </label>
+            <input type="checkbox" name="age" id="adult">
+            <input type="submit">
+        </form>
+        <hr>
+        <form action="/Fruit">
+            <input type="radio" id="apple" name="Fruit" value="apple">
+            <label for="apple">Apple</label>
+            <input type="radio" id="mango" name="Fruit" value="mango">
+            <label for="mango">Mango</label>
+            <input type="radio" id="banana" name="Fruit" value="banana">
+            <label for="banana">Banana</label>
+            <input type="submit">
+        </form>
+        <br><hr>
+    </center>
+</body>
+
+</html>
