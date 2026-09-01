@@ -53,4 +53,45 @@ a{
     position: absolute;
     top: 80px;
     width: 100%;
+    color: white;
+}
+
+.slidermenu .btn2{
+    color: grey;
+    font-size: 25px;
+    position: absolute;
+    line-height: 60px;
+    left: 275px;
+    opacity: 0;
+}
+
+.slidermenu .menu li{
+    margin-top: 10px;
+    padding: 0.5rem 0.75rem;
+}
+
+.slidermenu .menu a,i{
+    color: white;
+    font-size: 20px;
+}
+
+
+.slidermenu .menu i{
+    padding-right: 0.5rem;
+}
+
+.slidermenu .socials{
+    position: absolute;
+    left: 25%;
+    bottom: 50px;
+}
+
+.socials i{
+    padding: 0 7px;
+    color: white;
+    opacity: 0.5;
+}
+
+#check{
+    display: none;
 }
