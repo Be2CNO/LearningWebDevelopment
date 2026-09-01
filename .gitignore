@@ -8,14 +8,10 @@ CSS/grid.html
 CSS/grid.css
 CSS/Animation.html
 CSS/Animation.css
-
-
-HTML/emmet.html
-HTML/Entities.html
-HTML/forms.html
-HTML/HTML L3.html
-HTML/Learn.HTML
-HTML/PracForm.html
+CSS/MediaQuery.html
+CSS/MediaQuery.css
+CSS/zIndex.html
+CSS/zIndex.css
 
 
 Js/Arrays.js
@@ -28,6 +24,5 @@ Js/style.css
 Js/Variables.js
 Js/index.html
 
-Practice Projects/vs-code-clone/style.css
-Practice Projects/vs-code-clone/VSCode clone.html
-Practice Projects/vs-code-clone/assets/VSC.png
+Micro-Projects/photography
+Micro-Projects/QuoraPageClone
