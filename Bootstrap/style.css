@@ -1,3 +1,11 @@
 .container{
     background-color: yellowgreen;
 }
+
+.btn-danger{
+    background-color: pink;
+}
+
+.btn-secondary{
+    background-color: navajowhite;
+}
