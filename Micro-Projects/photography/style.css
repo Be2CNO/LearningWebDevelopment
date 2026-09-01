@@ -20,6 +20,7 @@
     left: 1rem;
     line-height: 60px;
     cursor: pointer;
+    transition: all 0.3s linear;
 }
 
 a{
@@ -28,11 +29,12 @@ a{
 
 .slidermenu{
     position: fixed;
-    /* left: -300px; */
+    left: -300px;
     height: 100vh;
     width: 300px;
     background-color: rgb(255, 255, 255, 0.1);
     box-shadow: 0 0 6px rgb(255, 255, 255, 0.5);
+    transition: all 0.3s linear;
 }
 
 .slidermenu .logo{
@@ -40,6 +42,7 @@ a{
     width: 100%;
     line-height: 60px;
     box-shadow: 0 0 4px rgb(255, 255, 255, 0.5);
+    height: 60px;
 }
 
 .slidermenu .logo a{
@@ -64,6 +67,7 @@ a{
     line-height: 60px;
     left: 275px;
     opacity: 0.5;
+    transition: all 0.3s linear;
 
 }
 
@@ -104,14 +108,23 @@ a{
 }
 
 .btn1 i:hover{
-    font-size: 40px;
+    transform: scale(1.5);
 }
 
 .btn2 i:hover{
-    font-size: 30px;
+    transform: scale(1.5);
+    color: rgb(245, 5, 5);
 }
 
 .slidermenu .socials i:hover{
     opacity: 1;
     transform: scale(1.5);
+}
+
+#check:checked ~ .slidermenu{
+    left: 0;
+}
+
+#check:checked ~ .btn1{
+    opacity: 0;
 }
