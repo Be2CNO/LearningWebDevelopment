@@ -1,0 +1,27 @@
+h1{
+    background-color: bisque;
+}
+
+div{
+    background-color: yellow;    
+}
+
+@media (min-width : 400px) {
+    h1{
+        background-color: aquamarine;
+        font-weight: 800;
+    }
+}
+
+@media (min-width: 400px) and (max-width : 990px){
+    h1{
+        background-color: black;
+        color: aliceblue;
+    }
+}
+
+@media (orientation: landscape){
+    h1{
+        display: none;
+    }
+}

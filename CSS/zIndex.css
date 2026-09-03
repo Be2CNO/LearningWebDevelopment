@@ -1,0 +1,22 @@
+.box{
+    height: 10rem;
+    width: 10rem;
+    border: solid 2px black;
+}
+
+#b1{
+    background-color: blueviolet;
+}
+
+#b2{
+    background-color: chocolate;
+    position: relative;
+    bottom: 50px;
+    z-index: 1;
+}
+
+#b3{
+    background-color: cadetblue;
+    position: relative;
+    bottom: 100px;
+}
