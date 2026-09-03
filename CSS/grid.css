@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+
+
+.gridcont{
+    text-align: center;
+    width: 900px;
+    height: 600px;
+    background-color: black;
+    display: grid;
+    /* grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px; */
+    grid-template-columns: repeat(5 , 2fr);
+    grid-template-rows: repeat(5, 2fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.item{
+    align-content: center;
+    margin: 5px;
+    border: 2px solid rgb(202, 237, 237);
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+#one{
+    /* grid-column-start: 2;
+    grid-column-end: 5; */
+    grid-column: 1/4;
+    grid-row: 2/5;
+}
