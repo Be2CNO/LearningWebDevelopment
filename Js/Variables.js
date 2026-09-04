@@ -44,3 +44,11 @@ console.log(myName);
     console.log(a)  // no error
 }
 
+// Template Literals
+
+let a = 3;
+let b = 4;
+console.log( a," this is three" , b , "this is four" )
+
+console.log(`Four - This is ${b} and Three is this one ${a}`)
+console.log(`Four plus three is ${a + b}`)
